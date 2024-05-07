@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #191931;
+  background: url('img/download.jpg');
   color: #e1e1f1;
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@ a {
 
 .sosmed i {
   font-size: 1.5rem;
-  color: #8787a3;
+  color: #FFFFFF;
 }
 
 .sosmed i:hover {
@@ -81,11 +81,11 @@ ul.links li:not(:last-child) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2d2d56;
+  background-color: #008000;
   gap: 1rem;
   padding: 1rem;
   border-radius: 20px;
-  box-shadow: 8px 10px 0 #0f0f25;
+  box-shadow: 8px 10px 0 #ffffff;
   border: 2px solid #2d2d56;
 }
 
@@ -168,5 +168,11 @@ ul.links li:not(:last-child) {
   }
   to {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  p{
+    text-align: center;
   }
 }
